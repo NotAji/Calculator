@@ -39,6 +39,7 @@ body{
     border-radius: 10px;
     display: flex;
     justify-content: baseline;
+    overflow-x: auto;    
 }
 
 #ansContainer h1{
@@ -197,4 +198,28 @@ h2{
 h2:hover{
     background-color: rgb(20, 16, 16);
     cursor: pointer;
+}
+#clear:hover{
+    background-color: black;
+}
+#blank1:hover{
+    background-color: black;
+}
+#blank2:hover{
+    background-color: black;
+}
+#divide:hover{
+    background-color: black;
+}
+#times:hover{
+    background-color: black;
+}
+#minus:hover{
+    background-color: black;
+}
+#plus:hover{
+    background-color: black;
+}
+#equals:hover{
+    background-color: black;
 }
