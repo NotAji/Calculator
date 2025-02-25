@@ -1,0 +1,182 @@
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: -100px;
+    color: black;
+    font-size: 20px;
+}
+
+.mainContainer{
+    align-items: content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgb(65, 62, 62);
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.container{
+    border: 1px solid red;
+    padding-bottom: 0;
+    height: 200px;
+    display: block;
+}
+
+#ansContainer{
+    border: 2px solid red;
+    width: 430px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: baseline;
+}
+
+#ansContainer h1{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.numContainer{
+    border: 1px solid green;
+    width: 500px;
+    height: 700px;
+}
+
+.row1{
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+#clear{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#blank1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+#blank2{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#divide{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row2{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+#seven{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#eight{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#nine{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#times{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row3{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-evenly;
+}
+#four{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#five{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#six{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#minus{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row4{
+    display: flex;
+    border: 1px solid yellow;
+    justify-content: space-evenly;
+}
+#one{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#two{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#three{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#plus{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row5{
+    display: flex;
+    border: 1px solid orange;
+    justify-content: space-evenly;
+}
+#zero{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+}
+#dot{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+#equals{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
