@@ -22,21 +22,20 @@ body{
     width: 500px;
     height: 700px;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .container{
-    border: 1px solid red;
     padding-bottom: 0;
     height: 200px;
     display: block;
 }
 
 #ansContainer{
-    border: 2px solid red;
+    background-color: aliceblue;
     width: 430px;
     height: 80px;
     margin: 20px;
+    margin-left: 33px;
     border-radius: 10px;
     display: flex;
     justify-content: baseline;
@@ -48,135 +47,154 @@ body{
 }
 
 .numContainer{
-    border: 1px solid green;
     width: 500px;
     height: 700px;
 }
 
 .row1{
     display: flex;
-    gap: 1em;
     justify-content: space-evenly;
-    border: 1px solid red;
 }
 
 #clear{
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #blank1{
     border: 1px solid gray;
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border-radius: 10px;
     padding: 20px 30px;
 }
 #blank2{
     border: 1px solid gray;
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #divide{
     border: 1px solid gray;
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 35px;
 }
 
 .row2{
-    border: 1px solid blue;
     display: flex;
     justify-content: space-evenly;
 }
 #seven{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #eight{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #nine{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #times{
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .row3{
     display: flex;
-    border: 1px solid green;
     justify-content: space-evenly;
 }
 #four{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
+    margin-left: -5px;
 }
 #five{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
+    margin-left: -3px;
 }
 #six{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
+    margin-left: -1px;
 }
 #minus{
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 33px;
 }
 
 .row4{
     display: flex;
-    border: 1px solid yellow;
     justify-content: space-evenly;
 }
 #one{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #two{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #three{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #plus{
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .row5{
     display: flex;
-    border: 1px solid orange;
     justify-content: space-evenly;
 }
 #zero{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
-    margin-left: 100px;
+    padding: 20px 30px;
+    margin-left: 115px;
 }
 #dot{
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #equals{
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
+}
+h2{
+    color: aliceblue;
+}
+h2:hover{
+    background-color: rgb(20, 16, 16);
+    cursor: pointer;
 }
